@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.222994fa.css",
+    "main.js": "/portfolio/static/js/main.bd6ed3eb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/image.png": "/portfolio/static/media/image.4f5cb9561e53964b1f10.png",
+    "static/media/project1.jpg": "/portfolio/static/media/project1.b8590eaba3028ca636d4.jpg",
+    "static/media/php.png": "/portfolio/static/media/php.00baeb442607d6f50cfe.png",
+    "static/media/react.png": "/portfolio/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/project2.jpg": "/portfolio/static/media/project2.7753668e58d46f39365f.jpg",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.36b2728bf0d14b7b7576.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.4e67641bb68b658d9b2b.png",
+    "static/media/Ezedin_Nuru_CV.pdf": "/portfolio/static/media/Ezedin_Nuru_CV.7ba9cac92ad2c092f614.pdf",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.2f2132d4838335ce808e.png",
+    "static/media/project6.png": "/portfolio/static/media/project6.68001acdaaab51dc3fa4.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.4f4b8e239d7598127376.png",
+    "static/media/github.png": "/portfolio/static/media/github.1ea4c7e4eb9a68f86065.png",
+    "static/media/html.png": "/portfolio/static/media/html.d961215ebbc9c073873f.png",
+    "index.html": "/portfolio/index.html",
+    "main.222994fa.css.map": "/portfolio/static/css/main.222994fa.css.map",
+    "main.bd6ed3eb.js.map": "/portfolio/static/js/main.bd6ed3eb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.222994fa.css",
+    "static/js/main.bd6ed3eb.js"
+  ]
+}
