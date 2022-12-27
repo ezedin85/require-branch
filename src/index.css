@@ -11,7 +11,7 @@
 }
 
 .experience_card{
-    @apply sm:w-1/2 md:w-1/3 transform scale-90 rounded-3xl p-8 bg-my_dark_blue border border-transparent hover:bg-transparent hover:border-white transition-all duration-200
+    @apply sm:w-1/2 md:w-1/3 transform scale-90 rounded-3xl p-5 sm:p-8 bg-my_dark_blue border border-transparent hover:bg-transparent hover:border-white transition-all duration-200
 }
 
 .transparent_button{
@@ -19,5 +19,5 @@
 }
 
 .filled_button{
-    @apply mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:text-my_aqua hover:bg-transparent hover:border-my_aqua transition-all duration-200
+    @apply mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:bg-white transition-all duration-200
 }

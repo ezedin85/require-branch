@@ -1,4 +1,5 @@
 import image from "../../assets/image.png"
+import image2 from "../../assets/coding.jpg"
 
 function About() {
   return (
@@ -10,35 +11,35 @@ function About() {
 
         <div className="flex justify-between flex-col md:flex-row">
             <div className=" md:mx-0 sm:mx-auto md:w-3/6 h-96 pt-10 transform scale-90 md:scale-100">
-                <div className="bg-red-500 md:mx-auto h-72 w-72 rounded-2xl">
-                    <div className="relative overflow-hidden bg-yellow-400 h-72 w-72 rounded-2xl transform rotate-12 hover:rotate-0" style={{backgroundImage: `url(${image})`, backgroundSize: "288px 288px", backgroundRepeat:"no-repeat"}}></div>
+                <div className="bg-white md:mx-auto h-72 w-72 rounded-2xl">
+                    <div className="relative overflow-hidden h-72 w-72 rounded-2xl transform rotate-12 hover:rotate-0" style={{backgroundImage: `url(${image2})`, backgroundSize: "288px 288px", backgroundRepeat:"no-repeat"}}></div>
                 </div>
             </div>
 
             <div className="md:w-3/6">
                 <div className="flex flex-wrap gap-3 sm:justify-center md:justify-start mb-6 md:mb-16">
-                    <div className="bg-blue-900 p-5 text-center rounded-xl">
-                        <i class="fa-solid fa-person-burst"></i>
-                        <h2>Experience on several websites</h2>
-                    </div>
-                    <div className="bg-blue-900 p-5 text-center rounded-xl">
-                        <i class="fa-solid fa-person-burst"></i>
-                        <h2>Finished Many Projects</h2>
-                    </div>
-                    <div className="bg-blue-900 p-5 text-center rounded-xl">
-                        <i class="fa-solid fa-person-burst"></i>
-                        <h2>Worldwide clients</h2>
-                    </div>
+                    <a href="mailto: ezedinnuru85@gmail.com" className="bg-blue-900 p-5 text-center border border-transparent rounded-xl hover:bg-transparent hover:border-white transition duration-150">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h2>Contact me</h2>
+                    </a>
+                    <a href="https://github.com/ezedin85" className="bg-blue-900 p-5 text-center border border-transparent rounded-xl hover:bg-transparent hover:border-white transition duration-150">
+                        <i class="fa-brands fa-github"></i>
+                        <h2>GitHub</h2>
+                    </a>
+                    <a href="https://linkdin.com/in/ezedin85nuru" className="bg-blue-900 p-5 text-center border border-transparent rounded-xl hover:bg-transparent hover:border-white transition duration-150">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h2>Linkedin</h2>
+                    </a>
                 </div>
 
                 <div>
-                    <p className="pb-5">
+                    <p className="pb-5 md:text-xl">
                     Frontend Software Engineer seeking an entry-level position with the
                     company to use my skills in coding, troubleshooting complex problems,
                     and assisting in project completion on time.
 
                     </p>
-                    <a href="ezedin38nuru@gmail.com" className="mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:text-my_aqua hover:bg-transparent hover:border-my_aqua">Let's Talk</a>
+                    <a href="mailto: ezedinnuru85@gmail.com" className="mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:text-my_aqua hover:bg-transparent hover:border-my_aqua">Let's Talk</a>
                 </div>
             </div>
         </div>

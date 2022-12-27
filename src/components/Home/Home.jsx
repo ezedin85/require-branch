@@ -10,7 +10,7 @@ function Home() {
 
         <div className="my-5">
             <a href={cv} download className="transparent_button">Download CV</a>
-            <a href="ezedin38nuru@gmail.com" className="filled_button">let's Talk</a>
+            <a href="mailto: ezedinnuru85@gmail.com" className="filled_button">let's Talk</a>
         </div>
 
         <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0">
@@ -22,7 +22,7 @@ function Home() {
         <div className="absolute left-10 bottom-10 text-my_aqua">
             <a className="block mb-2 hover:text-white" href="https://github.com/ezedin85" title="github"><i class="fa-brands fa-github"></i></a>
             <a className="block mb-2 hover:text-white" href="https://linkdin.com/in/ezedin85nuru" title="Linkdin"><i class="fa-brands fa-linkedin"></i></a>
-            <a  className="block hover:text-white" href="ezedin38nuru@gmail.com" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
+            <a  className="block hover:text-white" href="mailto: ezedinnuru85@gmail.com" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </div>
   )
