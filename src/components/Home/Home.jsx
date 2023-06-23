@@ -6,7 +6,8 @@ function Home() {
     <div id="home" className="relative h-screen pt-20 mx-auto md:w-4/5 text-center">
         <p>Hello i'm</p>
         <h1 className="text-6xl mt-4 font-poppins">Ezedin Nuru</h1>
-        <small className="opacity-70">Front-End Developer</small>
+        <small className="opacity-70">Full stack Developer,</small>
+        <p><small className="opacity-70">Founder of <a href="http://lemalef.epizy.com/">Lemalef Exams</a></small></p>
 
         <div className="my-5">
             <a href={cv} download className="transparent_button">Download CV</a>
@@ -15,7 +16,7 @@ function Home() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0">
             <div className="h-80 w-72 mx-auto rounded-t-full bg-gradient-to-b from-cyan-500 to-cyen-100">
-                <img className="absolute bottom-0" src={image} alt="image not found" />
+                <img className="absolute bottom-0" src={image} alt="file not found" />
             </div>
         </div>
         

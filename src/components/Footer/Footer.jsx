@@ -13,7 +13,7 @@ function Footer() {
         <a className="bg-my_navy text-white px-3 py-2 rounded-md m-2 inline-block" href="https://linkdin.com/in/ezedin85nuru" title="Linkdin"><i class="fa-brands fa-linkedin"></i></a>
         <a className="bg-my_navy text-white px-3 py-2 rounded-md m-2 inline-block" href="mailto: ezedinnuru85@gmail.com" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
       </div>
-        <p className="pt-5">© 1444 Copyright. All rights reserved. Ezedin Nuru - HazE Solutions</p>
+        <p className="pt-5">© 1444 Copyright. All rights reserved. Ezedin Nuru - ananas Digital</p>
     </div>
   )
 }

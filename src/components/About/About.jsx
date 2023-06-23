@@ -10,14 +10,14 @@ function About() {
         </div>
 
         <div className="flex justify-between flex-col md:flex-row">
-            <div className=" md:mx-0 sm:mx-auto md:w-3/6 h-96 pt-10 transform scale-90 md:scale-100">
+            <div className=" md:mx-0 sm:mx-auto md:w-3/6 h-96 pt-10 transform scale-90 md:scale-100 ">
                 <div className="bg-white md:mx-auto h-72 w-72 rounded-2xl">
                     <div className="relative overflow-hidden h-72 w-72 rounded-2xl transform rotate-12 hover:rotate-0" style={{backgroundImage: `url(${image2})`, backgroundSize: "288px 288px", backgroundRepeat:"no-repeat"}}></div>
                 </div>
             </div>
 
             <div className="md:w-3/6">
-                <div className="flex flex-wrap gap-3 sm:justify-center md:justify-start mb-6 md:mb-16">
+                <div className="flex flex-wrap gap-3 sm:justify-center md:justify-start mb-6 md:mb-8">
                     <a href="mailto: ezedinnuru85@gmail.com" className="bg-blue-900 p-5 text-center border border-transparent rounded-xl hover:bg-transparent hover:border-white transition duration-150">
                         <i class="fa-solid fa-envelope"></i>
                         <h2>Contact me</h2>
@@ -34,10 +34,7 @@ function About() {
 
                 <div>
                     <p className="pb-5 md:text-xl">
-                    Frontend Software Engineer seeking an entry-level position with the
-                    company to use my skills in coding, troubleshooting complex problems,
-                    and assisting in project completion on time.
-
+                    Innovative Full Stack Developer with almost 6 months of experience in developing and maintaining web applications using latest web development technologies such as Node.js, Express, React, MongoDB, and MySQL. 
                     </p>
                     <a href="mailto: ezedinnuru85@gmail.com" className="mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:text-my_aqua hover:bg-transparent hover:border-my_aqua">Let's Talk</a>
                 </div>

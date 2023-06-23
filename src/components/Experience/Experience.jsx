@@ -7,6 +7,8 @@ import javascript_png from '../../assets/javascript.png'
 import react_png from '../../assets/react.png'
 import php_png from '../../assets/php.png'
 import mysql_png from '../../assets/mysql.png'
+import node_png from '../../assets/node.png'
+import mongo_png from '../../assets/mongo.png'
 
 import tailwind_png from '../../assets/tailwind.png'
 
@@ -15,19 +17,21 @@ function Experience() {
     <div id='experience' className='py:10 md:py-20 mx-auto w-5/6 md:w-4/5'>
         <div className="text-center">
             <p>What skills do I have?</p>
-            <h1 className="text-my_aqua text-4xl">My Experience</h1>
+            <h1 className="text-my_aqua text-4xl">My Skills</h1>
         </div>
 
-        <div className='flex flex-wrap justify-between gap-y-20 gap-5 md:gap-10 mt-20'>
-            <img className='w-20 md:w-40 h-20 object-contain cursor-pointer' src={html_png} title="HTML5" alt=" not found" />
-            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={css_png} title="CSS3" alt=" not found" />
-            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={javascript_png} title="JavaScript ES5/ES6" alt=" not found" />
+        <div className='flex flex-wrap justify-between gap-y-20 gap-5 md:gap-20 mt-20'>
+            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={node_png} title="Node.js" alt=" not found" />
+            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={mongo_png} title="MongoDB" alt=" not found" />
             <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={react_png} title="React" alt=" not found" />
-            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={tailwind_png} title="Tailwind" alt=" not found" />
+            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={javascript_png} title="JavaScript ES5/ES6" alt=" not found" />
             <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={git_png} title="Git" alt=" not found" />
             <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={github_png} title="GitHub" alt=" not found" />
+            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={tailwind_png} title="Tailwind" alt=" not found" />
             <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={mysql_png} title="basic MYSQL" alt=" not found" />
             <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={php_png} title="basic PHP" alt=" not found" />
+            <img className='w-20  md:w-40 h-20 object-contain cursor-pointer' src={css_png} title="CSS3" alt=" not found" />
+            <img className='w-20 md:w-40 h-20 object-contain cursor-pointer' src={html_png} title="HTML5" alt=" not found" />
         </div>
     </div>
   )
