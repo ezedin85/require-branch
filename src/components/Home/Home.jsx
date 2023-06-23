@@ -1,5 +1,5 @@
 import image from "../../assets/image.png"
-import cv from "../../data/Ezedin_Nuru_CV.pdf"
+import cv from "../../data/CV_Ezedin_Nuru.pdf"
 
 function Home() {
   return (

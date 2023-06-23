@@ -19,7 +19,7 @@ function Projects() {
                 <h1 className='text-yellow-300 mt-6 text-2xl font-bold'>Lemalef Exams <small>( 800+ students )</small></h1>
                 <p className='text-lg mt-1 mb-6'>
                     This online platform offers COC exam tutorials and self-examination system for
-                    accounting TVET students. Currently, the site has nearly 800+ registered students</p>
+                    accounting TVET students. Currently, the site has 800+ students</p>
                 {/* <a href="" className="transparent_button" >Github</a> */}
                 <a href="http://lemalef.epizy.com/"  rel="noreferrer" target="_blank" className="filled_button">Live Demo</a>                
             </a>
