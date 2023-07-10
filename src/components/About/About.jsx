@@ -34,7 +34,7 @@ function About() {
 
                 <div>
                     <p className="pb-5 md:text-xl">
-                    Innovative Full Stack Developer with almost 6 months of experience in developing and maintaining web applications using latest web development technologies such as Node.js, Express, React, MongoDB, and MySQL. 
+                    Innovative Experienced Full Stack Developer in developing and maintaining web applications using latest web development technologies such as Node.js, Express, React, MongoDB, and MySQL. 
                     </p>
                     <a href="mailto: ezedinnuru85@gmail.com" className="mr-2 border text-my_navy bg-my_aqua border-transparent p-2 rounded hover:text-my_aqua hover:bg-transparent hover:border-my_aqua">Let's Talk</a>
                 </div>
